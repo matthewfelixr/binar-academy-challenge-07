@@ -45,7 +45,7 @@ export default function Home() {
                       <div className="card-body" onClick={()=>router.push(`/students/${id}`)}>
                         <p className="card-text">First Name: {student.attributes.firstname}</p>
                         <p className="card-text">Last Name: {student.attributes.lastname}</p>
-                        <p className="card-text">Location: {student.attributes.location}</p>
+                        <p className="card-text">Location: {student.attributes.location}</p> 
                       </div>
                 </div>
               </div>

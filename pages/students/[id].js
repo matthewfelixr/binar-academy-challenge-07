@@ -31,7 +31,7 @@ const Student = () => {
                   <div className={styles.card}>
                   { student.attributes.photo.data !== null &&
                         <ZoomIn>
-                          <img className="card-img-top rounded"src={student.attributes.photo.data.attributes.url} style={{width:"300px", height:"400px", border:"white"}} />
+                          <img className="card-img-top rounded"src={student.attributes.photo.data.attributes.url} style={{width:"300px", height:"400px", border:"white"}} /> 
                         </ZoomIn>
                       }
                       <div className="card-body">
